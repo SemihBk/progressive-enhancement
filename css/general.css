@@ -1,0 +1,131 @@
+/* Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+//
+
+Title
+
+Medium : 3rem
+Large : 3.6rem
+
+Text
+Small : < 1.4rem
+Medium : 1.8rem 
+
+*/
+
+/* Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lora", serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #000;
+  background-color: #fff;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 6.4rem;
+}
+
+/*********/
+/* TITLE */
+/*********/
+
+.sub-title {
+  font-size: 3.6rem;
+  text-align: center;
+  margin-bottom: 3.2rem;
+  text-transform: uppercase;
+}
+
+/************/
+/* BAD GOOD */
+/************/
+
+.bad {
+  text-transform: uppercase;
+  color: #f03e3e;
+}
+
+.good {
+  text-transform: uppercase;
+  color: #0ca678;
+}
+
+/*********/
+/* QUOTE */
+/*********/
+
+blockquote {
+  font-size: 2.4rem;
+  font-style: italic;
+  border-left: 3px solid #ced4da;
+  padding-left: 3rem;
+  margin: 0 auto 3rem;
+  width: 50%;
+  background-color: #f1f3f5;
+  padding: 8rem 0 8rem 3rem;
+}
+
+/********/
+/* LIGN */
+/********/
+
+.lg-ln {
+  width: 50%;
+  background-color: #fcc419;
+  border: 2.4px solid #fcc419;
+  border-radius: 50%;
+  margin: 4.8rem auto 0 auto;
+}
+
+/*********/
+/* TABLE */
+/*********/
+
+table,
+td {
+  border-collapse: collapse;
+  border: 1px solid #333;
+  margin: 0 auto;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+  font-size: 3rem;
+}
+
+th {
+  padding: 2rem;
+  width: 50%;
+  border-right: 1px solid #fff;
+}
+
+td {
+  font-size: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #e9ecef;
+}

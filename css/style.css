@@ -1,0 +1,150 @@
+.support-us {
+  font-size: 5rem;
+  border-radius: 100%;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+.main-title {
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-top: 4.8rem;
+  margin-left: 9rem;
+  margin-bottom: 1.6rem;
+}
+
+.icon-author {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  color: #343a40;
+
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-left: 11rem;
+}
+
+.icon {
+  color: #000;
+  font-size: 2rem;
+}
+
+.author {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.hero {
+  display: block;
+  margin: auto;
+  margin-bottom: 6.4rem;
+  float: left;
+}
+
+/***********/
+/* ARTICLE */
+/***********/
+
+.preamble {
+  margin: auto;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  justify-content: space-around;
+  margin-bottom: 21.4rem;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  font-size: 2.4rem;
+  width: 70%;
+  gap: 1.8rem;
+
+  text-align: center;
+  line-height: 1.2;
+}
+
+.icon-step {
+  display: inline-block;
+  font-size: 3rem;
+  text-align: center;
+  color: #e67700;
+}
+
+.text {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  letter-spacing: 0.2rem;
+  line-height: 1.2;
+}
+
+.bold-paragraph {
+  font-weight: bold;
+}
+
+.text-author {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: right;
+}
+
+.farmer {
+  border-left: 3px solid #e03131;
+}
+
+.villagers {
+  border-left: 3px solid #ffec99;
+}
+
+/********/
+/* TABLE*/
+/********/
+
+.ccl-container {
+  width: 85%;
+  margin: auto;
+}
+
+.conclusion-title {
+  font-size: 3rem;
+  margin-top: 4rem;
+  margin-bottom: 2.2rem;
+  margin-left: 2.4rem;
+}
+
+/**********/
+/* FOOTER */
+/**********/
+
+.fore-footer {
+  font-size: 2rem;
+  text-align: right;
+  margin-bottom: 4.8rem;
+}
+
+.ad-article:link,
+.ad-article:active,
+.ad-article:visited {
+  text-decoration: none;
+  color: #fab005;
+}
+
+.ad-article:hover {
+  color: #f08c00;
+}
+
+.footer {
+  font-size: 1.8rem;
+  text-align: center;
+}
