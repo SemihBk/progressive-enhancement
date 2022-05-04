@@ -78,10 +78,10 @@ blockquote {
   font-style: italic;
   border-left: 3px solid #ced4da;
   padding-left: 3rem;
-  margin: 0 auto 3rem;
+  margin: 8rem auto;
   width: 50%;
   background-color: #f1f3f5;
-  padding: 8rem 0 8rem 3rem;
+  padding-left: 3rem;
 }
 
 /********/
